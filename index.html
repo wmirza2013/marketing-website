@@ -19,23 +19,43 @@
   </header>
 
   <!-- Services Section -->
-  <section id="services">
-    <div class="container">
-      <h2>Our Services</h2>
-      <div class="service">
+  <!-- Services Section -->
+<section id="services">
+  <div class="container">
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <!-- SEO Service Card -->
+      <div class="service-card">
         <h3>SEO Optimization</h3>
         <p>Improve your website's visibility on search engines.</p>
+        <button class="learn-more" data-service="seo">Learn More</button>
       </div>
-      <div class="service">
+
+      <!-- PPC Service Card -->
+      <div class="service-card">
         <h3>PPC Advertising</h3>
         <p>Run effective pay-per-click campaigns on Google and social media.</p>
+        <button class="learn-more" data-service="ppc">Learn More</button>
       </div>
-      <div class="service">
+
+      <!-- Social Media Service Card -->
+      <div class="service-card">
         <h3>Social Media Marketing</h3>
         <p>Engage your audience and grow your brand on social platforms.</p>
+        <button class="learn-more" data-service="social-media">Learn More</button>
       </div>
     </div>
-  </section>
+  </div>
+</section>
+
+<!-- Modal for Service Details -->
+<div id="service-modal" class="modal">
+  <div class="modal-content">
+    <span class="close-modal">&times;</span>
+    <h3 id="modal-title"></h3>
+    <p id="modal-description"></p>
+  </div>
+</div>
 
   <!-- Portfolio Section -->
   <section id="portfolio">
@@ -55,7 +75,7 @@
   <section id="about">
     <div class="container">
       <h2>About Me</h2>
-      <p>Hi, I'm [wmirza], a certified digital marketing expert with [6 years] of experience helping businesses grow online.</p>
+      <p>Hi, I'm [Your Name], a certified digital marketing expert with [X years] of experience helping businesses grow online.</p>
     </div>
   </section>
 
@@ -75,7 +95,7 @@
   <!-- Footer -->
   <footer>
     <div class="container">
-      <p>&copy; 2023 [wmirza2013]. All rights reserved.</p>
+      <p>&copy; 2023 [Your Name]. All rights reserved.</p>
     </div>
   </footer>
 
